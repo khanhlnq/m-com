@@ -1,0 +1,15 @@
+CONTACT-MAIL: qkhanhlen@yahoo.com
+MAIL-HOST: smtp.mail.yahoo.com
+MIDlet-1: Hotrotuyensinh, /icon.png, enroll_info.EnrollMIDlet
+MIDlet-Description: Chuong trinh ho tro thong tin tuyen sinh
+MIDlet-Icon: /icon.png
+MIDlet-Install-Notify: Contact Information: qkhanhlen@yahoo.com
+MIDlet-Jar-Size: 81498
+MIDlet-Jar-URL: Hotrotuyensinh.jar
+MIDlet-Name: Hotrotuyensinh
+MIDlet-Vendor: Le Ngoc Quoc Khanh
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-2.0
+SMS-NUM: 2011
+Server-URL: http://localhost:8080/enrollfull/proxy

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <!--JBuilder Library Definition File-->
+  <fullname>EnrollJProj</fullname>
+  <class>
+    <path>tmpclasses</path>
+    <path>classes</path>
+  </class>
+  <lastmodsaved>1067394885057</lastmodsaved>
+</library>

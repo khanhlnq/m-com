@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webServices
+    xmlns="http://java.sun.com/xml/ns/jax-rpc/ri/dd"
+    version="1.0"
+    targetNamespaceBase="http://com.test/wsdl"
+    typeNamespaceBase="http://com.test/types"
+    urlPatternBase="/ws">
+
+    <endpoint
+        name="EnrollService"
+        displayName="Enroll Service"
+        description="An enroll web service" 
+        interface="enroll.Enroll"  
+        implementation="enroll.EnrollService"/> 
+ 
+    <endpointMapping
+        endpointName="EnrollService"
+        urlPattern="/enrollservice"/>
+
+</webServices>
