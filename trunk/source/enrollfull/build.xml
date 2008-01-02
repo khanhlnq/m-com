@@ -1,0 +1,168 @@
+<project name="EnrollFull Project" default="build" basedir=".">
+
+  <property file="${user.home}/build.properties"/>
+  <property file="build.properties"/>
+
+  <taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask" />
+  <taskdef name="undeploy" classname="org.apache.catalina.ant.UndeployTask" />
+  <taskdef name="list" classname="org.apache.catalina.ant.ListTask" />
+  <taskdef name="start" classname="org.apache.catalina.ant.StartTask" />
+  <taskdef name="stop" classname="org.apache.catalina.ant.StopTask" />
+
+  <target name="deploy" 
+     description="Deploys a Web application">
+      <deploy url="${url}" username="${username}" password="${password}" 
+        path="/${context-path}" war="file:${war-path}"   
+      />
+  </target>
+
+  <target name="undeploy" 
+     description="Undeploys a Web application">
+      <undeploy url="${url}" username="${username}" password="${password}" 
+        path="/${context-path}"     
+      />
+  </target>
+
+  <target name="redeploy" 
+      description="Undeploys and deploys a Web aplication">
+      <antcall target="undeploy" />
+      <antcall target="deploy" />
+  </target>
+
+  <target name="list" 
+     description="Lists Web applications">
+     <echo message="Listing the applications...."/>
+     <list
+        url="${url}" 
+        username="${username}" 
+        password="${password}" 
+      />
+  </target>
+
+  <target name="start" 
+     description="Starts a Web application">
+     <echo message="Starting the application...."/>
+     <start
+        url="${url}" 
+        username="${username}" 
+        password="${password}" 
+        path="/${context-path}" 
+      />
+  </target>
+
+  <target name="stop" 
+     description="Stops a Web application">
+     <echo message="Stopping the application...."/>
+     <stop
+        url="${url}" 
+        username="${username}" 
+        password="${password}" 
+        path="/${context-path}" 
+      />
+  </target>
+
+  <target name="set-ws-scripts" 
+     description="Sets the value of the wscompile and wsdeploy properties for this build file" >
+     <condition property="script-suffix" value="bat">
+        <os family="windows"/>
+     </condition>
+     <condition property="script-suffix" value="sh">
+        <not>
+           <os family="windows"/>
+        </not>
+     </condition>
+     <property name="wscompile" value="${wscompile-path}/wscompile.${script-suffix}"/>
+     <property name="wsdeploy" value="${wscompile-path}/wsdeploy.${script-suffix}"/>
+  </target>
+
+  <target name="prepare" 
+     description="Creates the build and dist directories" >
+     <echo message="Creating the required directories...." />
+     <mkdir dir="${build}/server" />
+     <mkdir dir="${build}/shared" />
+     <mkdir dir="${build}/wsdeploy-generated" />
+     <mkdir dir="dist" />
+     <mkdir dir="${build}/WEB-INF/classes" />
+  </target>
+
+  <target name="compile-server" depends="prepare"
+      description="Compiles the server-side source code">
+      <echo message="Compiling the server-side source code...."/>
+      <javac
+         srcdir="src/enroll;src/enrollservlet;src\org\kobjects\serialization;src\org\ksoap;src\org\kxml;src\org\kxml\io;src\org\kxml\parser;src\org\kxml\kdom;src\org\kxml\wap"
+         destdir="${build}/shared"
+         includes="*.java"
+      />
+  </target>
+
+  <target name="setup-web-inf"
+     description="Copies files to build/WEB-INF">
+     <echo message="Setting up ${build}/WEB-INF...."/>
+     <delete dir="${build}/WEB-INF" />
+     <copy todir="${build}/WEB-INF/classes">
+         <fileset dir="${build}/shared" />
+         <fileset dir="${build}/server" />
+     </copy>
+     <copy file="web.xml" todir="${build}/WEB-INF" />
+     <copy file="jaxrpc-ri.xml" todir="${build}/WEB-INF" />
+       </target>
+
+  <target name="package" 
+      description="Packages the WAR file">
+      <echo message="Packaging the WAR...."/>
+      <delete file="dist/${portable-war}" />
+      <jar jarfile="dist/${portable-war}" >
+        <fileset dir="${build}" includes="WEB-INF/**" />
+        <fileset dir="defaultroot" includes="**" />
+      </jar>
+  </target>
+
+  <target name="process-war" depends="set-ws-scripts"
+      description="Runs wsdeploy to generate the ties and create a deployable WAR file">
+      <echo message="Running wsdeploy...."/>
+      <delete file="dist/${deployable-war}" />
+   <exec executable="${wsdeploy}">
+      <arg line="-tmpdir"/>
+      <arg line="${build}/wsdeploy-generated"/>
+      <arg line="-o"/>
+      <arg line="dist/${deployable-war}"/>
+      <arg line="dist/${portable-war}"/>
+      <arg line="-verbose"/>
+    </exec>
+  </target>
+
+  <target name="build-service" depends="clean,clean-wars,compile-server,
+     setup-web-inf,package,process-war"
+     description="Executes the targets needed to build the service.">
+  </target>
+
+  <target name="clean" 
+     description="Removes the build directory">
+    <delete dir="${build}" />
+  </target>
+
+  <target name="clean-wars" 
+     description="Deletes the WAR files in the dist directory">
+    <delete file="dist/${portable-war}" />
+    <delete file="dist/${deployable-war}" />
+  </target>
+
+  <target name="show-props" depends="set-ws-scripts"
+     description="Displays values of some of the properties of this build file">
+     <echo message="  jwsdp.home = ${jwsdp.home}" />
+     <echo message="  user.home = ${user.home}" />
+     <echo message="  username = ${username}" />
+     <echo message="  password = ${password}" />
+     <echo message="  url = ${url}" />
+     <echo message="  wscompile = ${wscompile}" />
+     <echo message="  context-path = ${context-path}" />
+     <echo message="  war-path = ${war-path}" />
+     <echo message=" " />
+     <echo message="  jwsdp-jars = ${jwsdp-jars}" />
+  </target>
+
+  <target name="build" depends="build-service"
+     description="Executes the targets needed to build the service.">
+  </target>
+
+</project>

@@ -1,0 +1,663 @@
+<CLASS Type="TProject">
+    <PROPERTY Name="Name">EnrollProj</PROPERTY>
+    <PROPERTY Name="FileName">D:\Wtk20\apps\Hotrotuyensinh\EnrollProj.jde</PROPERTY>
+    <PROPERTY Name="Managed">0</PROPERTY>
+    <PROPERTY Name="Expanded">1</PROPERTY>
+    <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+    <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+    <PROPERTY Name="SmartFolder">0</PROPERTY>
+    <PROPERTY Name="OpenFiles">
+        <CLASS Type="TFiles">
+            <PROPERTY Name="CurrentIndex">0</PROPERTY>
+            <PROPERTY Name="LastFileName">F:\JProjects\EnrollService\src\enroll\Enroll.java</PROPERTY>
+                <CLASS Type="TFile">
+                    <PROPERTY Name="ProjectID">{A52F7BEE-7633-4570-A37F-37E0D830D423}</PROPERTY>
+                    <PROPERTY Name="CaretLeft">0</PROPERTY>
+                    <PROPERTY Name="CaretTop">0</PROPERTY>
+                    <PROPERTY Name="FileName">$(PROJECT)\src\enroll_info\ContactScreen.java</PROPERTY>
+                    <PROPERTY Name="WindowLeft">0</PROPERTY>
+                    <PROPERTY Name="WindowTop">0</PROPERTY>
+                </CLASS>
+        </CLASS>
+    </PROPERTY>
+    <PROPERTY Name="ID">{A52F7BEE-7633-4570-A37F-37E0D830D423}</PROPERTY>
+    <PROPERTY Name="HistoryPath">$(PROJECT)\history</PROPERTY>
+    <PROPERTY Name="Libraries">
+        <CLASS Type="TLibraries">
+                <CLASS Type="TLibrary">
+                    <PROPERTY Name="ClassPath">D:\Wtk20\lib\midpapi.zip,D:\Wtk20\lib\mmapi.zip,D:\Wtk20\lib\wma.zip</PROPERTY>
+                    <PROPERTY Name="JavaDocPath"></PROPERTY>
+                    <PROPERTY Name="ID">{99213EC3-2D19-4143-970C-80025EE52E65}</PROPERTY>
+                    <PROPERTY Name="LibraryName">JWTK</PROPERTY>
+                    <PROPERTY Name="LibraryType">0</PROPERTY>
+                    <PROPERTY Name="SourcePath"></PROPERTY>
+                </CLASS>
+        </CLASS>
+    </PROPERTY>
+    <PROPERTY Name="JDKID">{2195F5AB-FCA8-4470-AB78-0142CFE70AA9}</PROPERTY>
+    <PROPERTY Name="DocPath">$(PROJECT)\docs</PROPERTY>
+    <PROPERTY Name="OutputPath">$(PROJECT)\classes</PROPERTY>
+    <PROPERTY Name="SourcePath">$(PROJECT)\src</PROPERTY>
+    <PROPERTY Name="SourcePaths">
+        <CLASS Type="TSourcePaths">
+                <CLASS Type="TSourcePath">
+                    <PROPERTY Name="Path">$(PROJECT)\src</PROPERTY>
+                    <PROPERTY Name="Default">1</PROPERTY>
+                    <PROPERTY Name="SourcePathType">0</PROPERTY>
+                </CLASS>
+                <CLASS Type="TSourcePath">
+                    <PROPERTY Name="Path">$(PROJECT)\res</PROPERTY>
+                    <PROPERTY Name="Default">0</PROPERTY>
+                    <PROPERTY Name="SourcePathType">3</PROPERTY>
+                </CLASS>
+        </CLASS>
+    </PROPERTY>
+    <PROPERTY Name="RunType">0</PROPERTY>
+    <PROPERTY Name="RunApplication">
+        <CLASS Type="TRunApplication">
+        </CLASS>
+    </PROPERTY>
+    <PROPERTY Name="RunApplet">
+        <CLASS Type="TRunApplet">
+            <PROPERTY Name="AppletType">0</PROPERTY>
+            <PROPERTY Name="Parameters"></PROPERTY>
+        </CLASS>
+    </PROPERTY>
+    <PROPERTY Name="RunManual">
+        <CLASS Type="TRunManual">
+        </CLASS>
+    </PROPERTY>
+    <PROPERTY Name="URLMaps">
+        <CLASS Type="TURLMaps">
+        </CLASS>
+    </PROPERTY>
+    <PROPERTY Name="SCCLocalPath">$(PROJECT)\src</PROPERTY>
+    <PROPERTY Name="Version">0.80</PROPERTY>
+    <PROPERTY Name="SourceControlType">0</PROPERTY>
+    <PROPERTY Name="CVSServerType">0</PROPERTY>
+        <CLASS Type="TFolder">
+            <PROPERTY Name="Name">src</PROPERTY>
+            <PROPERTY Name="FileName">$(PROJECT)\src</PROPERTY>
+            <PROPERTY Name="Managed">0</PROPERTY>
+            <PROPERTY Name="Expanded">1</PROPERTY>
+            <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+            <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+            <PROPERTY Name="SmartFolder">1</PROPERTY>
+                <CLASS Type="TFolder">
+                    <PROPERTY Name="Name">org</PROPERTY>
+                    <PROPERTY Name="FileName">$(PROJECT)\src\org</PROPERTY>
+                    <PROPERTY Name="Managed">1</PROPERTY>
+                    <PROPERTY Name="Expanded">1</PROPERTY>
+                    <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+                    <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+                    <PROPERTY Name="SmartFolder">1</PROPERTY>
+                        <CLASS Type="TFolder">
+                            <PROPERTY Name="Name">kxml</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Expanded">0</PROPERTY>
+                            <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+                            <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+                            <PROPERTY Name="SmartFolder">1</PROPERTY>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">Attribute.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\Attribute.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">PrefixMap.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\PrefixMap.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">Xml.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\Xml.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">XmlIO.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\XmlIO.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                                <CLASS Type="TFolder">
+                                    <PROPERTY Name="Name">io</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\io</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Expanded">0</PROPERTY>
+                                    <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+                                    <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+                                    <PROPERTY Name="SmartFolder">1</PROPERTY>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">AbstractXmlWriter.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\io\AbstractXmlWriter.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">ParseException.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\io\ParseException.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">State.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\io\State.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">XmlWriter.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\io\XmlWriter.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                </CLASS>
+                                <CLASS Type="TFolder">
+                                    <PROPERTY Name="Name">parser</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\parser</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Expanded">0</PROPERTY>
+                                    <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+                                    <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+                                    <PROPERTY Name="SmartFolder">1</PROPERTY>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">AbstractXmlParser.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\parser\AbstractXmlParser.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">ParseEvent.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\parser\ParseEvent.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">StartTag.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\parser\StartTag.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">Tag.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\parser\Tag.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">XmlParser.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\parser\XmlParser.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                </CLASS>
+                                <CLASS Type="TFolder">
+                                    <PROPERTY Name="Name">wap</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\wap</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Expanded">0</PROPERTY>
+                                    <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+                                    <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+                                    <PROPERTY Name="SmartFolder">1</PROPERTY>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">WapExtensionEvent.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\wap\WapExtensionEvent.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">Wbxml.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\wap\Wbxml.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">WbxmlParser.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\wap\WbxmlParser.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">WbxmlWriter.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\wap\WbxmlWriter.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">Wml.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\wap\Wml.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">WmlParser.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\wap\WmlParser.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">WmlWriter.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\wap\WmlWriter.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                </CLASS>
+                                <CLASS Type="TFolder">
+                                    <PROPERTY Name="Name">kdom</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\kdom</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Expanded">0</PROPERTY>
+                                    <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+                                    <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+                                    <PROPERTY Name="SmartFolder">1</PROPERTY>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">Document.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\kdom\Document.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">Element.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\kdom\Element.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">Node.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\kdom\Node.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">TreeParser.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kxml\kdom\TreeParser.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                </CLASS>
+                        </CLASS>
+                        <CLASS Type="TFolder">
+                            <PROPERTY Name="Name">ksoap</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\org\ksoap</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Expanded">0</PROPERTY>
+                            <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+                            <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+                            <PROPERTY Name="SmartFolder">1</PROPERTY>
+                                <CLASS Type="TFolder">
+                                    <PROPERTY Name="Name">transport</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\ksoap\transport</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Expanded">0</PROPERTY>
+                                    <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+                                    <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+                                    <PROPERTY Name="SmartFolder">1</PROPERTY>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">HttpTransport.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\ksoap\transport\HttpTransport.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                </CLASS>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">ClassMap.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\ksoap\ClassMap.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">DM.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\ksoap\DM.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">Marshal.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\ksoap\Marshal.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">Soap.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\ksoap\Soap.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">SoapEnvelope.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\ksoap\SoapEnvelope.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">SoapFault.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\ksoap\SoapFault.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">SoapObject.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\ksoap\SoapObject.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">SoapParser.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\ksoap\SoapParser.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">SoapPrimitive.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\ksoap\SoapPrimitive.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                                <CLASS Type="TFileNode">
+                                    <PROPERTY Name="Name">SoapWriter.java</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\ksoap\SoapWriter.java</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Marks">
+                                        <CLASS Type="TMarks">
+                                        </CLASS>
+                                    </PROPERTY>
+                                </CLASS>
+                        </CLASS>
+                        <CLASS Type="TFolder">
+                            <PROPERTY Name="Name">kobjects</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kobjects</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Expanded">0</PROPERTY>
+                            <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+                            <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+                            <PROPERTY Name="SmartFolder">1</PROPERTY>
+                                <CLASS Type="TFolder">
+                                    <PROPERTY Name="Name">serialization</PROPERTY>
+                                    <PROPERTY Name="FileName">$(PROJECT)\src\org\kobjects\serialization</PROPERTY>
+                                    <PROPERTY Name="Managed">1</PROPERTY>
+                                    <PROPERTY Name="Expanded">0</PROPERTY>
+                                    <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+                                    <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+                                    <PROPERTY Name="SmartFolder">1</PROPERTY>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">ElementType.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kobjects\serialization\ElementType.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">KvmSerializable.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kobjects\serialization\KvmSerializable.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                        <CLASS Type="TFileNode">
+                                            <PROPERTY Name="Name">PropertyInfo.java</PROPERTY>
+                                            <PROPERTY Name="FileName">$(PROJECT)\src\org\kobjects\serialization\PropertyInfo.java</PROPERTY>
+                                            <PROPERTY Name="Managed">1</PROPERTY>
+                                            <PROPERTY Name="Marks">
+                                                <CLASS Type="TMarks">
+                                                </CLASS>
+                                            </PROPERTY>
+                                        </CLASS>
+                                </CLASS>
+                        </CLASS>
+                </CLASS>
+                <CLASS Type="TFolder">
+                    <PROPERTY Name="Name">support</PROPERTY>
+                    <PROPERTY Name="FileName">$(PROJECT)\src\support</PROPERTY>
+                    <PROPERTY Name="Managed">1</PROPERTY>
+                    <PROPERTY Name="Expanded">1</PROPERTY>
+                    <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+                    <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+                    <PROPERTY Name="SmartFolder">1</PROPERTY>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">SoapProcessor.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\support\SoapProcessor.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">MessageBox.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\support\MessageBox.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">VietSign.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\support\VietSign.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">HttpPoster.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\support\HttpPoster.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">HttpPosterListener.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\support\HttpPosterListener.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">ProgressIndicator.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\support\ProgressIndicator.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">ProgressListener.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\support\ProgressListener.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                </CLASS>
+                <CLASS Type="TFolder">
+                    <PROPERTY Name="Name">enroll_info</PROPERTY>
+                    <PROPERTY Name="FileName">$(PROJECT)\src\enroll_info</PROPERTY>
+                    <PROPERTY Name="Managed">1</PROPERTY>
+                    <PROPERTY Name="Expanded">1</PROPERTY>
+                    <PROPERTY Name="CompileExtensions">gif,java,properties</PROPERTY>
+                    <PROPERTY Name="Extensions">gif,java,properties</PROPERTY>
+                    <PROPERTY Name="SmartFolder">1</PROPERTY>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">EnrollMIDlet.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\enroll_info\EnrollMIDlet.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">ListMain.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\enroll_info\ListMain.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">ExplainScreen.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\enroll_info\ExplainScreen.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">ContactScreen.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\enroll_info\ContactScreen.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">UnivList.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\enroll_info\UnivList.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">FindRecordScreen.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\enroll_info\FindRecordScreen.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                        <CLASS Type="TFileNode">
+                            <PROPERTY Name="Name">ViewMarkScreen.java</PROPERTY>
+                            <PROPERTY Name="FileName">$(PROJECT)\src\enroll_info\ViewMarkScreen.java</PROPERTY>
+                            <PROPERTY Name="Managed">1</PROPERTY>
+                            <PROPERTY Name="Marks">
+                                <CLASS Type="TMarks">
+                                </CLASS>
+                            </PROPERTY>
+                        </CLASS>
+                </CLASS>
+        </CLASS>
+</CLASS>
